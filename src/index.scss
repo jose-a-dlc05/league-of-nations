@@ -1,0 +1,21 @@
+:root {
+	// Dark Mode
+	// Elements
+	--dark-blue: hsl(209, 23%, 22%);
+	// Background
+	--very-dark-blue-dark: hsl(207, 26%, 17%);
+
+	// Light Mode
+	--very-dark-blue-text: hsl(200, 15%, 8%);
+	--dark-gray: hsl(0, 0%, 52%);
+	--very-light-gray: hsl(0, 0%, 98%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 14px;
+}

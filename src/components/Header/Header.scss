@@ -1,0 +1,28 @@
+@import '../../index.scss';
+
+.header {
+	&Wrapper {
+		color: var(--very-dark-blue-text);
+		margin: auto;
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+	}
+
+	&Title {
+		font-weight: 900;
+	}
+
+	&Button {
+		background: transparent;
+		border: none;
+		font-size: 0.8rem;
+		font-weight: 500;
+		cursor: pointer;
+
+		.moonIcon {
+			margin-right: 7px;
+		}
+	}
+}
